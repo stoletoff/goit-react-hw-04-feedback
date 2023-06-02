@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/goit-react-hw-04-feedback/static/css/main.4eed05cf.css",
+    "main.js": "/goit-react-hw-04-feedback/static/js/main.d722073a.js",
+    "static/media/Alkatra-VariableFont_wght.ttf": "/goit-react-hw-04-feedback/static/media/Alkatra-VariableFont_wght.f7d7f539621400f4b70b.ttf",
+    "static/media/Caveat-VariableFont_wght.ttf": "/goit-react-hw-04-feedback/static/media/Caveat-VariableFont_wght.a58d6a2a86fd431d5635.ttf",
+    "index.html": "/goit-react-hw-04-feedback/index.html",
+    "main.4eed05cf.css.map": "/goit-react-hw-04-feedback/static/css/main.4eed05cf.css.map",
+    "main.d722073a.js.map": "/goit-react-hw-04-feedback/static/js/main.d722073a.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4eed05cf.css",
+    "static/js/main.d722073a.js"
+  ]
+}
