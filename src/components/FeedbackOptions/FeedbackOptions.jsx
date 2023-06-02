@@ -1,13 +1,13 @@
 import PropTypes from 'prop-types';
 import { OptionsWrap, OptionBtn } from './FeedbackOptions.styled';
 
-export const FeedbackOptions = ({ onUpdateState, options }) => (
+export const FeedbackOptions = ({ onUpdateStatus, options }) => (
   <OptionsWrap>
     {options.map(option => (
       <OptionBtn
         key={option}
         type="button"
-        onClick={() => onUpdateState(option)}
+        onClick={() => onUpdateStatus(option)}
         option={option}
       >
         {option}
@@ -17,6 +17,6 @@ export const FeedbackOptions = ({ onUpdateState, options }) => (
 );
 
 FeedbackOptions.propTypes = {
-  onUpdateState: PropTypes.func.isRequired,
+  onUpdateStatus: PropTypes.func.isRequired,
   options: PropTypes.arrayOf(PropTypes.string.isRequired).isRequired,
 };
